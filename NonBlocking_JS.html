@@ -1,0 +1,21 @@
+<html>
+        <body>
+                <ul>
+                    <li>A list item</li>
+                    <li>Another list item</li>
+                    <li>A third item in the list</li>
+                </ul>
+                <script>
+                    function countItems (el, callback) {
+                        setTimeout(function () {
+                            var test = document.getElementsByTagName(el);
+                            callback(test)
+                        }, 2000);
+                    }
+    
+                    countItems('li', function (test) {
+                        alert("There are " + test.length + " items");
+                    });
+                </script>
+        </body>
+</html>

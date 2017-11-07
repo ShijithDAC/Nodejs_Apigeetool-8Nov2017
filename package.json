@@ -1,0 +1,13 @@
+{
+  "name": "",
+  "version": "",
+  "dependencies": {
+    "async": "^2.6.0",
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "express-params": "0.0.3",
+    "path": "^0.12.7",
+    "request": "^2.83.0",
+    "serve-index": "^1.9.1"
+  }
+}
